@@ -1,4 +1,4 @@
-# Splunk
+# GoPhish + Splunk
 Project Idea: Phishing Email -> Detection with Splunk
 
 **<ins>Table of Contents:</ins>**
