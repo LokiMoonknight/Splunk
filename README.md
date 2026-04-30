@@ -72,7 +72,7 @@ Working through this project provides hands-on expereince with:
 | Virtualization | Oracle VirtualBox |
 | Victim Machine | Windows 10 VM |
 | Phishing Framework | GoPhish |
-| SIEM Platform | Splunk Free |
+| SIEM Platform | Splunk Free/ Splunk Universal Forwarder |
 | Test Email Account | Dedicated Gmail account (victim) |
 
 The lab runs within Oracle VirtualBox with the Windows 10 VM acting as the simulated victim machine. GoPhish and Splunk Free runs on the host machine and Splunk Universal Forwarder is installed on the Windows 10 VM to help Splunk Free ingest local logs.
