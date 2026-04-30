@@ -69,13 +69,13 @@ Working through this project provides hands-on expereince with:
 
 | Component | Tool/Platform |
 |-----------|---------------|
-| Virtualization | VirtualBox |
+| Virtualization | Oracle VirtualBox |
 | Victim Machine | Windows 10 VM |
 | Phishing Framework | GoPhish |
 | SIEM Platform | Splunk Free |
 | Test Email Account | Dedicated Gmail account (victim) |
 
-The lab runs within VirtualBox with the Windows VM acting as the simulated victim machine. GoPhish runs on the host machine and Splunk is installed on the Windows VM to inggest local logs.
+The lab runs within Oracle VirtualBox with the Windows 10 VM acting as the simulated victim machine. GoPhish and Splunk Free runs on the host machine and Splunk Universal Forwarder is installed on the Windows 10 VM to help Splunk Free ingest local logs.
 
 **Tools, Frameworks & Datasets**
 
@@ -83,9 +83,9 @@ The lab runs within VirtualBox with the Windows VM acting as the simulated victi
 
 *  GoPhish — Phishing simulation framework
 
-*  Splunk Free — SIEM and log analysis platform
+*  Splunk Free/Splunk Universal Forwarder — SIEM and log analysis platform
 
-*  VirtualBox — Virtualization for isolated lab environment
+*  Oracle VirtualBox — Virtualization for isolated lab environment
 
 **Frameworks:**
 
@@ -121,13 +121,13 @@ graph TD;
 
 **Phase 1 — Preparation (Week 1)**
 
-1. Install VirtualBox and provision a Windows 10 VM
+1. Install Oracle VirtualBox and add a Windows 10 VM 
 
-2. Install and configure GoPhish on the host machine
+2. Install and configure GoPhish and Splunk Free on the host machine and configure log inputs
    
-3.  Install Splunk Free on the Windows VM and configure log inputs
+3. Install Splunk Universal Forwarder on the Windows 10 VM 
    
-4. Create a test Gmail account to serve as the phishing victim
+4. Create a test Gmail account on the Windows 10 VM to serve as the phishing victim
 
 **Phase 2 — Attack Simulation (Week 2)**
 
@@ -206,3 +206,14 @@ graph TD;
 <img width="975" height="507" alt="image" src="https://github.com/user-attachments/assets/aad9e822-e384-4bed-aa2a-5cb930b507f5" />
 
 <img width="975" height="513" alt="image" src="https://github.com/user-attachments/assets/f5b4e98a-0ebe-4123-9c0a-90f2199d22bb" />
+
+5. **Conclusion**
+
+This project demonstrated how a phishing attack unfolds in practice and how security teams use SIEM tools to detect and respond to it. By simulating a complete phishing campaign using GoPhish and analyzing the resulting logs in Splunk, the project illustrated the full incident response lifecycle from the moment a malicious email is delivered to the moment an alert fires and evidence is collected.
+
+Several key insights emerged from this work. First, phishing attacks are deceptively simple to execute. Using freely available open-source tools, a convincing phishing campaign can be stood up in a matter of hours, requiring minimal technical skill from the attacker. This underscores why phishing remains the most common entry point for data breaches across industries. Second, log visibility is everything in incident response. Without the Splunk Universal Forwarder collecting Windows Event Logs from the victim machine, the attack would have been completely invisible. The project reinforced that organizations without centralized log collection are essentially operating blind during an incident. Third, the correlation of multiple event types tells the full story. No single log entry revealed the attack on its own — it was the combination of logon events, new process creation, and network connection logs across the NIST IR timeline that painted a complete picture of what happened, when, and how.
+Building and running the lab environment also produced valuable practical lessons. Configuring the Splunk Universal Forwarder to communicate with the Splunk indexer across a VirtualBox Host-Only network required troubleshooting firewall rules, network adapter settings, and configuration files — challenges that mirror the kinds of real-world setup and integration issues that SOC engineers face regularly. These hands-on difficulties provided a deeper understanding of how enterprise security infrastructure is built and maintained than any textbook could offer.
+
+In terms of recommended improvements, several defensive measures would have prevented or significantly limited the impact of this attack in a real environment. Enforcing Multi-Factor Authentication (MFA) would have rendered the harvested credentials useless even after the victim submitted them on the fake login page. Email filtering and anti-phishing tools such as Microsoft Defender for Office 365 or Google Workspace's built-in phishing detection would likely have flagged or blocked the phishing email before it reached the victim's inbox. User awareness training remains one of the most cost-effective defenses — employees who are trained to recognize phishing indicators such as mismatched sender addresses, urgency-based language, and suspicious links are far less likely to fall victim. Finally, network segmentation and endpoint detection tools would have provided additional layers of detection and containment had the attack progressed beyond credential harvesting.
+
+From a broader perspective, this simulation closely mirrors the workflows used by real SOC analysts. The process of ingesting logs, writing detection queries, building dashboards, and configuring alert rules are daily tasks in a functioning Security Operations Center. Tools like Splunk are deployed in organizations of all sizes precisely because they provide the visibility, speed, and flexibility needed to detect and respond to incidents like the one simulated in this project. By working through this process hands-on, this project provided a practical foundation in incident response that goes beyond theoretical knowledge and reflects the realities of modern cybersecurity defense.
