@@ -170,27 +170,28 @@ graph TD;
 3. Build and rehearse the oral presentation
 
 4. **Results:**
-  <img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/12be18a2-ea4a-4820-944e-77b4915f6b38" />
+   
+<img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/12be18a2-ea4a-4820-944e-77b4915f6b38" />
 
-![Alt Text](copied-url).
+<img width="975" height="651" alt="image" src="https://github.com/user-attachments/assets/af14975a-a697-4657-b9ca-774221af283a" />
+<img width="975" height="579" alt="image" src="https://github.com/user-attachments/assets/b963ffe2-777c-4b2f-8c65-e3d965ddedcc" />
+<img width="975" height="577" alt="image" src="https://github.com/user-attachments/assets/e3141de7-d129-4406-8b6d-26eb2ce6d02a" />
+<img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/fc9e695e-19ad-4821-993e-2d4c5bee9f20" />
 
-<img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/11223b13-abcb-463b-a985-7c7112d0b5b3" />
 
-<img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/d80a3d74-fb85-4360-a1c0-4166b06b789f" />
+<img width="975" height="509" alt="image" src="https://github.com/user-attachments/assets/79145791-ebbb-4c7a-88e1-aee2a79461a0" />
+<img width="975" height="509" alt="image" src="https://github.com/user-attachments/assets/2734b68e-5d4c-4c18-aa38-c52cef45997e" />
 
-<img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/63ea1b92-1b7b-42be-a37b-1d8223d22f00" />
-
-<img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/128450cf-2909-4979-89b6-17f0a3ceacbb" />
   
 <img width="975" height="506" alt="image" src="https://github.com/user-attachments/assets/162011e3-a3ae-461d-a562-05e76f45b1c1" />
+<img width="975" height="509" alt="image" src="https://github.com/user-attachments/assets/ad27a52d-bfa8-4414-9142-ec12b005621e" />
+<img width="975" height="507" alt="image" src="https://github.com/user-attachments/assets/8d7d9100-b0bc-4a27-96b9-1d0e74515906" />
 
-<img width="975" height="506" alt="image" src="https://github.com/user-attachments/assets/90a6d208-d108-498e-afbf-359f91be48ae" />
-
-<img width="975" height="506" alt="image" src="https://github.com/user-attachments/assets/afc9e7b4-c760-4232-b0b3-724a5022d78e" />
 
 <img width="975" height="506" alt="image" src="https://github.com/user-attachments/assets/0e136583-e247-4972-9c6c-54e312fafd3e" />
 
 <img width="975" height="507" alt="image" src="https://github.com/user-attachments/assets/f88bbd77-6cdc-40ca-8d86-4134c149f966" />
+<img width="975" height="579" alt="image" src="https://github.com/user-attachments/assets/e99e6718-a548-4885-a8b3-43698245f508" />
 
 <img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/87642868-b22e-42f9-92a5-1479b818a9ec" />
 
