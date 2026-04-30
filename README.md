@@ -1,7 +1,7 @@
 # Splunk
 Project Idea: Phishing Email -> Detection with Splunk
 
-<ins>**Table of Contents:**</ins>
+**<ins>Table of Contents:</ins>**
 
 *  Project Overview
 
@@ -15,11 +15,11 @@ Project Idea: Phishing Email -> Detection with Splunk
 
 *  References
 
-1. **Project Overview:**
+1. **<ins>Project Overview:</ins>**
 
 This project will explore the use of GoPhish and Splunk within the context of Incident Response. My project will take a practical, simulation-based approach by staging a phishing attack in a controlled virtual environment and demonstrating how security teams detect, investigate, and respond to such an attack using a Security Information and Event Management (SIEM) platform. The goal is to show how GoPhish and Splunk work together in an incident response context by simulatuing a phishing campaign capturing the resulting logs, and building detection dashboards and alert rules that mirror real SOC workflows.
 
-2. **Project Relevance:**
+2. **<ins>Project Relevance:</ins>**
 
 **Why Phishing?**
 
@@ -63,7 +63,7 @@ Working through this project provides hands-on expereince with:
 
 *  Communicating technical findings to both technical and non-technical audiences
 
-3. **Methodology:**
+3. **<ins>Methodology:</ins>**
 
 **Environment Setup**
 
@@ -169,7 +169,7 @@ graph TD;
    
 3. Build and rehearse the oral presentation
 
-4. **Results:**
+4. **<ins>Results:</ins>**
    
 <img width="975" height="580" alt="image" src="https://github.com/user-attachments/assets/12be18a2-ea4a-4820-944e-77b4915f6b38" />
 
@@ -207,7 +207,7 @@ graph TD;
 
 <img width="975" height="513" alt="image" src="https://github.com/user-attachments/assets/f5b4e98a-0ebe-4123-9c0a-90f2199d22bb" />
 
-5. **Conclusion**
+5. **<ins>Conclusion</ins>**
 
 This project demonstrated how a phishing attack unfolds in practice and how security teams use SIEM tools to detect and respond to it. By simulating a complete phishing campaign using GoPhish and analyzing the resulting logs in Splunk, the project illustrated the full incident response lifecycle from the moment a malicious email is delivered to the moment an alert fires and evidence is collected.
 
